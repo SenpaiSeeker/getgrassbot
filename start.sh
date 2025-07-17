@@ -15,5 +15,5 @@ while true; do
     echo -e "2\n$total_count" | python3 main.py -p proxy.txt &
 
     echo $! > "$PID_FILE"
-    sleep 21600
+    sleep 86400
 done
